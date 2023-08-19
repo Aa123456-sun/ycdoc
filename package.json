@@ -1,14 +1,17 @@
 {
-  "name": "YuChenDOC",
-  "version": "1.0.0",
-  "description": "YuChen user doc",
-  "main": "index.js",
-  "repository": "sun",
-  "author": "YuChenSUN",
-  "license": "MIT",
-  "private": null,
-  "devDependencies": {
-    "vuepress": "^1.9.10"
- 
-  }
-}
+    "name": "YuChenDOC",
+    "version": "1.0.0",
+    "description": "YuChen user doc",
+    "main": "index.js",
+    "author": "YuChenSUN",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+      "vuepress": "^1.9.10"
+    },
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs",
+    }
+  }
+
