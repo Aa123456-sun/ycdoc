@@ -1,0 +1,14 @@
+{
+  "name": "YuChenDOC",
+  "version": "1.0.0",
+  "description": "YuChen user doc",
+  "main": "index.js",
+  "repository": "sun",
+  "author": "YuChenSUN",
+  "license": "MIT",
+  "private": null,
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+ 
+  }
+}
